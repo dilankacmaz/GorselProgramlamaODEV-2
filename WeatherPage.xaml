@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoOdev.Views.WeatherPage">
+
+    <VerticalStackLayout Spacing="20" Padding="15">
+        <Label Text="Hava Durumu" FontSize="Medium"/>
+        <Label x:Name="CityLabel" Text="Şehir"/>
+        <Label x:Name="TemperatureLabel" Text="Sıcaklık"/>
+        <Label x:Name="DescriptionLabel" Text="Açıklama"/>
+    </VerticalStackLayout>
+</ContentPage>

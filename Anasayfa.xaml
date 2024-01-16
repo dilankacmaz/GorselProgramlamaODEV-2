@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoOdev.Anasayfa">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+
+            <Label
+          Text="ÖDEV-2"
+          SemanticProperties.HeadingLevel="Level1"
+          FontSize="50"
+          HorizontalOptions="Center" />
+            
+            <Image
+          Source="dotnet_bot.png"
+          SemanticProperties.Description="Cute dot net bot waving hi to you!"
+          HeightRequest="200"
+          HorizontalOptions="Center" />
+
+            <Label
+          Text="HOŞGELDİNİZ!"
+          SemanticProperties.HeadingLevel="Level1"
+          FontSize="32"
+          HorizontalOptions="Center" />
+
+            <Label
+          Text="Dilan Kaçmaz"
+          SemanticProperties.HeadingLevel="Level2"
+          SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+          FontSize="18"
+          HorizontalOptions="Center" />
+            <Label
+          Text="21010310033"
+          SemanticProperties.HeadingLevel="Level2"
+          FontSize="18"
+          HorizontalOptions="Center" />
+            <Label
+          Text="Bartın Üniversitesi Bilgisayar Mühendisliği"
+          SemanticProperties.HeadingLevel="Level2"
+          FontSize="18"
+          HorizontalOptions="Center" />
+
+            <Button x:Name="CounterBtn"
+        Text="Yapılacaklar Listesi"
+        Clicked="GoToMainPage"
+         BackgroundColor="red"
+        HorizontalOptions="Center" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
